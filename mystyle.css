@@ -1,7 +1,31 @@
+/*global*/
+
 *{
     padding: 0;
     margin: 0;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+}
+/*header*/
+
+.site-header{
+    background-image: url(/img/header.jpg);
+    background-size: cover;
+    height: 250px;
+    text-align: center;
+    color: white;
+}
+
+/*menu-nav*/
+
+.nav-menu-bar{
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin-right: 25px;
+    
 }
