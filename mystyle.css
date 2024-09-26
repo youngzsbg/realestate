@@ -5,7 +5,7 @@
     margin: 0;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Kalam", cursive;
 }
 p{
     line-height: 2;
@@ -55,7 +55,7 @@ img{
 }
 
 .menu a{
-    margin-right: 25px;
+    margin-right: 30px;
     }
 
 /*about*/
@@ -68,10 +68,18 @@ img{
 }
 
 /*houses*/
+
+.houses-container{
+    display: flex;
+}
 .houses-item{
     background-color: #dedede;
-    margin-right: 20px;
+    margin-right: 10px;
     
+}
+.houses-item-img{
+    width: 100%;
+    height: auto;
 }
 .houses-item-text{
     padding: 20px;
@@ -84,12 +92,97 @@ img{
     display: flex;
 }
 .icon-container img{
-    
-}
+    margin-right: 20px;
+    }
 .icons-list{
     display: flex;
     justify-content: space-between;
 }
-.houses-container{
+
+
+/*contact*/
+.contact-header{
+    background-color: orange;
+    color: black;
+    height: 150px;
+}
+.contact-header a{
+    color: black;
+}
+
+/*form-container*/
+.form-container{
+    background-color: #dedede;
+    padding: 20px;
+    border-radius: 10px;
+}
+legend{
+    font-size: 12px;
+
+}
+fieldset{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form-control{
+    margin-bottom: 20px;
+}
+.form-control input,
+.form-control textarea{
+    border: none;
+    width: 70%;
+    padding: 5px;
+    border-radius: 3px;
+}
+.form-control label{
+    display: inline-block;
+    width: 150px;
+}
+footer{
+    background-color: #dedede;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    }
+.privacy-text{
     display: flex;
 }
+    .privacy-text p:last-of-type{
+        border-left: 2px solid black;
+        padding-left: 10px;
+        margin-left: 10px;
+        text-decoration: underline;
+        font-weight: 900;
+    }
+    .product-container{
+        margin-top: 20px;
+    }
+    .form-control select{
+        width: 600px;
+    }
+    .contact-info-container{
+        margin-top: 20px;
+        
+    }
+    /*contact-title*/
+    .contact-title{
+        text-align: center;
+    }
+    .contact-title p:first-of-type{
+        font-weight: 900;
+    }
