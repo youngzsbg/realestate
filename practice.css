@@ -1,0 +1,30 @@
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 10px;
+    text-align: center;
+}
+.error{
+    background-color: rgb(241, 175, 175);
+    color: rgb(139, 8, 8);
+}
+th{
+    background-color: aqua;
+}
+
+/*nav-menu*/
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media(max-width:768px){
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
