@@ -249,3 +249,50 @@ footer{
     .contact-title p:first-of-type{
         font-weight: 900;
     }
+
+    /*blog*/
+    .blog-header{
+        font-size: larger;
+        background-size: cover;
+        color: white;
+        height: 150px;
+        background-image:url(/img/highlight.jpg)   
+                 
+    }
+    .blog-header a{
+        color: white;
+    }
+    /*main*/
+
+    .container h2{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
+    }
+    body{
+        background-color: burlywood;
+    }
+    .blog-item{
+        text-align: center;
+        margin-right: 20px;
+    
+    }
+    
+    .blog-images{
+        display: flex;         
+    }
+    .pic-group{
+    }
+    section h2{
+        color: rgb(7, 30, 179);
+        margin-bottom: 60px;
+    }
+
+    /*blog section*/
+    .key-list{
+        color: rgb(7, 30, 179);
+        font-size: 14px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
