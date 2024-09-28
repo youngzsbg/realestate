@@ -259,6 +259,11 @@ footer{
         background-image:url(/img/highlight.jpg)   
                  
     }
+    @media(max-width:768px){
+    .blog-header{
+        height: 250px;
+    }
+    }
     .blog-header a{
         color: white;
     }
@@ -281,6 +286,13 @@ footer{
     
     .blog-images{
         display: flex;         
+    }
+    /*blog mobile*/
+
+    @media(max-width:768px){
+        .blog-images{
+            flex-direction: column;
+        }
     }
     .pic-group{
     }
